@@ -7,3 +7,16 @@ Finished the github tutorial, Now I can start!
 ## Setting up a small lab with pfsense
 - Lab 1 https://docs.google.com/document/d/1-XcJ2gEjgBkTEluPB4NYKCjHchag2m1UZANIAqLSLMU/edit 
 - Lab 2 https://docs.google.com/document/d/1p_SAaRlDF_noFukhFArUedUR1bblM1nifSaRPDSG1tY/edit#
+
+# DHCP
+DHCP offer
+DHCP discover
+DHCP request
+DHCP Acknowledge
+https://medium.com/@bromiley/full-packet-friday-dhcp-abbc6b7b3c77#:~:text=A%20DHCP%20Discover%20packet%20is,and%20find%20the%20DHCP%20server.
+# File Permissions
+useradd (name)
+passwd (name)
+usermod -aG (group) (name)
+-a append
+-G group
