@@ -7,7 +7,9 @@ Finished the github tutorial, Now I can start!
 ## Setting up a small lab with pfsense
 - Lab 1 https://docs.google.com/document/d/1-XcJ2gEjgBkTEluPB4NYKCjHchag2m1UZANIAqLSLMU/edit 
 - Lab 2 https://docs.google.com/document/d/1p_SAaRlDF_noFukhFArUedUR1bblM1nifSaRPDSG1tY/edit#
-
+- Lab 3 https://docs.google.com/document/d/125Ow1J6dk_h_MnZB4vrpCgLh4LokoBaU-RCKISzvHsY/edit
+- Lab 4 https://docs.google.com/document/d/1xNNudD7ch0pSXqaX4MQz4uvHGico4nzwpXnDekzWbws/edit
+- Lab 5 https://docs.google.com/document/d/1x9crY4B8ykKc1JTd3JYN8G-cKPt9YJsb_GH1wrTxhoo/edit
 # Secure SSH
 https://wiki.centos.org/HowTos/Network/SecuringSSH
 # DHCP
