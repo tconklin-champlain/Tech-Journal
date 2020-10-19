@@ -26,3 +26,5 @@ usermod -aG (group) (name),
 -G group,
 groupadd (name),
 chgrp (group) (name),
+# Mapping a drive
+https://activedirectorypro.com/map-network-drives-with-group-policy/
