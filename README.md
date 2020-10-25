@@ -32,12 +32,17 @@ DHCP request,
 DHCP acknowledge,
 https://medium.com/@bromiley/full-packet-friday-dhcp-abbc6b7b3c77#:~:text=A%20DHCP%20Discover%20packet%20is,and%20find%20the%20DHCP%20server.
 ## File Permissions
-useradd (name),
-passwd (name),
-usermod -aG (group) (name),
--a append,
--G group,
-groupadd (name),
-chgrp (group) (name),
+useradd (name), 
+passwd (name), 
+usermod -aG (group) (name), 
+-a append, 
+-G group, 
+groupadd (name), 
+chgrp (group) (name), 
+## Linux Domain Join
+sudo yum install realmd samba samba-common oddjob oddjob-mkhomedir sssd, 
+realm join --user=your-domain-admin-username@yourdomain.local yourdomain.local, realm list
+## Apache Configuration
+firewall-cmd --list-all, firewall-cmd --add-service=(http,https,httpd), firewall-cmd --reload
 ## Mapping a drive
 https://activedirectorypro.com/map-network-drives-with-group-policy/
