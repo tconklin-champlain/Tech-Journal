@@ -46,3 +46,5 @@ realm join --user=your-domain-admin-username@yourdomain.local yourdomain.local, 
 firewall-cmd --list-all, firewall-cmd --add-service=(http,https,httpd), firewall-cmd --reload
 ## Mapping a drive
 https://activedirectorypro.com/map-network-drives-with-group-policy/
+## DHCP on WS
+https://activedirectorypro.com/configure-dhcp-server/
