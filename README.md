@@ -48,3 +48,9 @@ firewall-cmd --list-all, firewall-cmd --add-service=(http,https,httpd), firewall
 https://activedirectorypro.com/map-network-drives-with-group-policy/
 ## DHCP on WS
 https://activedirectorypro.com/configure-dhcp-server/
+
+
+
+----------------------------------------------------
+## Cheatsheet on sleuthkit
+http://cet4860.pbworks.com/w/file/fetch/120745857/4860.4861.4862.forensic_cheatsheet.pdf
