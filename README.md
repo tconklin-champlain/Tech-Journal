@@ -43,7 +43,7 @@
  
 ##  [Linux Network Configuration](https://docs.google.com/document/d/125Ow1J6dk_h_MnZB4vrpCgLh4LokoBaU-RCKISzvHsY/edit "Lab 3")
 ### File Permissions:
-| Command | Description |
+|Command | Description |
 | ----------- | ----------- |
 | nmtui | Network Manager Text User Interface |
 | useradd | Adds New User |
@@ -74,16 +74,15 @@
 ___
 ##  [Remote Administrator Tools](https://docs.google.com/document/d/1IhIrHa8C-i0TBCYNr-SZd7hZsu24WGMEzNHTdxwwRGI/edit "Lab 7")
 ### Enable Remote Administration On Windows Server:
-1. On Windows Server type <code>sconfig
-</code>
+1. On Windows Server type <code>sconfig</code>
 1. Enable *Configure Remote Managment*
 > 💡 *Remote Administration in an enterprise environment would likely not be done on the domain controller, but rather a Domain Joined workstation or server with Remote Server Administration Tools installed.*
 
 ##  [Apache Lab](https://docs.google.com/document/d/1Yf4omb9Pmdcs3XWryZQOPSbHlOEanyYGunWBrC2tSd4/edit "Lab 8")
 ### Disable root SSH Access:
-1. Disable remote root ssh access within the PermitRootLogin no flag in <code> /etc/ssh/sshd_config </code> file.
+1. Disable remote root ssh access within the PermitRootLogin no flag in <code>/etc/ssh/sshd_config</code> file.
 ![ssh_disable](https://cdn.discordapp.com/attachments/578082700825591811/883824110235443240/ssh_access.png)
-1. Type <code> service sshd restart </code> to finalize settings.
+1. Type <code>service sshd restart</code> to finalize settings.
 >💣 *CentOS and other Redhat based Linux servers ship with SSH turned on.  This combined with a known "root" user who is able to attempt login remotely presents a security flaw that must be addressed by the systems administrator before the system is accessible over the internet.  The typical solution involves explicitly preventing root from logging in via the sshd_config file.*
 ### Properly Securing SSH:
 [Setting Up *sshd_config* File](https://wiki.centos.org/HowTos/Network/SecuringSSH "Citation")
