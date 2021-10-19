@@ -1,6 +1,13 @@
 #secure-ssh.sh
-#creates a new ssh user using $1 parameter
+#creates a new ssh user using USER parameter
 #adds a public key from the local repo or curled from the rmeote repo
 #removes roots ability to ssh in
-echo -e 'sudo useradd -m -d /home/sys265 -s /bin/bash sys265\nsudo mkdir /home/sys265/.ssh\nsudo cp SYS265/linux/public-keys/id_rsa.pub /home/sys265/.ssh/authorized_keys\nsudo chmod 700 /home/sys265/.ssh\nsudo chmod 600 /home/sys265/.ssh/authorized_keys\nsudo chown -R sys265:sys265 /home/sys265/.ssh'
-
+echo 'Creating a user who can only log in vis RSA'
+USER=$1
+sudo useradd -m -d /home/$USER -s /bin/bash $USER
+sudo mkdir /home/$USER/.ssh
+sudo cp ~/Tech-Journal/linux/public-keys/id_rsa.pub /home/$USER/.ssh/authorized_keys
+sudo chmod 700 /home/$USER/.ssh
+sudo chmod 600 /home/$USER/.ssh/authorized_keys
+sudo chown -R $USER:$USER /home/$USER/.ssh
+exit 0
