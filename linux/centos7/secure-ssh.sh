@@ -1,6 +1,6 @@
 #secure-ssh.sh
 #creates a new ssh user using USER parameter
-#adds a public key from the local repo or curled from the rmeote repo
+#adds a public key from the local repo or curled from the remote repo
 #removes roots ability to ssh in
 echo 'Creating a user who can only log in vis RSA'
 USER=$1
