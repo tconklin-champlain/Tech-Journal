@@ -14,6 +14,9 @@ def _logs(filename,service, term):
     # Query the yaml file for the 'term' or directive and
     # retrieve the strings to search on.
     terms = keywords[service][term]
+
+    listOfKeywords = terms.split(",")
+    
     # Open a file
     with open(filename) as f:
 
