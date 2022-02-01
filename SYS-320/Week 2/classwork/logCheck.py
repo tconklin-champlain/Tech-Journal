@@ -16,7 +16,7 @@ def _logs(filename,service, term):
     terms = keywords[service][term]
 
     listOfKeywords = terms.split(",")
-    
+
     # Open a file
     with open(filename) as f:
 
