@@ -10,6 +10,7 @@ def urlHausOpen(filename,searchTerms):
         # change filename to the open file variable f and change attribute to reader
         contents = csv.reader(f)
         for row in range(9):
+            # Iterate contents
             next(contents)
         for eachLine in contents:
             for keyword in searchTerms:
