@@ -1,0 +1,4 @@
+---
+apache:
+  prclose: 'QQ.*\s\-\s.*\:[0-9]+\sclose.*'
+  propen: 'QQ.*\s\-\s.*\:[0-9]+\sopen.*'

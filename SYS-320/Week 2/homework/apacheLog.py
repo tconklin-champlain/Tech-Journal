@@ -71,3 +71,26 @@ def yaml_pass(filename, service, term):
     for eachHost in hosts:
         
         print(eachHost)
+        # YAML dissection
+def yaml_pass2(filename, service, term):
+    
+    # Call syslogCheck and return the results
+    is_found = logCheck._logs(filename, service, term)
+    
+    # Found list
+    found = []
+    
+    # Loop through results
+    for eachFound in is_found:
+        
+        #Split the results
+        sp_results = eachFound.split(" ")
+        
+        # chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+        # Append the split value to the found list
+        found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[3]+ " " + sp_results[4]+ " " + sp_results[5]+ " " + sp_results[6])
+    hosts = set(found)
+    
+    for eachHost in hosts:
+        
+        print(eachHost)
