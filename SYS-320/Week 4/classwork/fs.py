@@ -30,7 +30,7 @@ rootdir = args.directory
 
 # Check if arg is directory
 if not os.path.isdir(rootdir):
-    print("Invalid directory => {}").format(rootdir)
+    print("Invalid directory => {}".format(rootdir))
     exit()
 # List to save files
 fList = []
