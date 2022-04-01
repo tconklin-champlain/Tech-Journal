@@ -1,0 +1,18 @@
+---
+shell_attacks:
+  winShell: cmd.exe
+  nixShell: /bin/sh
+  webShell: c99.php
+
+sql_attacks:
+  phpAdmin: /phpmyadmin
+  mySql: mysql
+
+dirtrvse_attacks:
+ passwdAttack: /etc/passwd
+ rootDir: '\.\.'
+
+contentmng_Attacks:
+  joomlaAttack: joomla
+  wordpressAttack: wordpress
+  xmlrpcAttack: xmlrpc
