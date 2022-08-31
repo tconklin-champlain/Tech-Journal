@@ -10,7 +10,7 @@ def _syslog(filename,listOfKeywords):
         contents = f.readlines()
     # Lists to store the results
     results = []
-    # Loop through the list returned. Each element is a line fromt thee smallSyslog file
+    # Loop through the list returned. Each element is a line from the smallSyslog file
     for line in contents:
 
         # Loops through the keywords
