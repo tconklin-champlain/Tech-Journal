@@ -2,5 +2,5 @@
 apache:
   php: "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php.*"
   cgi: "[GET|POST].*/cgi-bin/test-cgi,[GET|POST].*/cgi-bin/htsearch?Exclude=%60/etc/passwd%60"
-  task1: 'QQ.*\s\-\s.*\:[0-9]+\sclose.*'
-  task2: 'QQ.*\s\-\s.*\:[0-9]+\sopen.*'
+  task1: 'QQ.*\s\-\s.*(?<!qq).com*\:[0-9]+\sclose.*'
+  task2: 'QQ.*\s\-\s.*(?<!qq).com*\:[0-9]+\sopen.*'
